@@ -77,7 +77,7 @@ class Trad extends Txt
 		self::$trad["loginPlaceholder"]="Email / Login";
 		self::$trad["connect"]="Log In";
 		self::$trad["connectAuto"]="Remember me";
-		self::$trad["connectAutoInfo"]="Save my login and password to automatically connect";
+		self::$trad["connectAutoInfo"]="Remember me to login automatically";
 		self::$trad["gSigninButton"]="Login with Google";
 		self::$trad["gSigninButtonInfo"]="Sign in with your Gmail account : to do this, you must already have an account on this space, with an email address <i>@gmail.com</i>";
 		self::$trad["gSigninUserNotRegistered"]="is not registered on the space with the email";
@@ -94,8 +94,8 @@ class Trad extends Txt
 		self::$trad["passwordInfo"]="Leave blank if you want to keep your password";
 		self::$trad["passwordInvalid"]="Your password must have at least 6 characters with at least 1 digit and at least 1 letter";
 		self::$trad["passwordConfirmError"]="Your confirmation password is not valid";
-		self::$trad["specifyPassword"]="Thank you to specify a password";
-		self::$trad["resetPassword"]="Forgotten login info ?";
+		self::$trad["specifyPassword"]="Thank you to specifying a password";
+		self::$trad["resetPassword"]="Forgot your password?";
 		self::$trad["resetPassword2"]="Enter your email address to receive your login and password";
 		self::$trad["resetPasswordNotif"]="An email has just been sent to your address to reset your password. If you have not received an email, please verify that the address specified is correct, or that the email is not in your spams.";
 		self::$trad["resetPasswordMailTitle"]="Reset your password";
@@ -280,7 +280,7 @@ class Trad extends Txt
 		
 		////	Infos sur une personne
 		self::$trad["civility"]="Title";
-		self::$trad["name"]="Name";
+		self::$trad["name"]="Last Name";
 		self::$trad["firstName"]="First name";
 		self::$trad["adress"]="Address";
 		self::$trad["postalCode"]="Zip code";
@@ -750,8 +750,8 @@ class Trad extends Txt
 		self::$trad["CALENDAR_hideAllCals"]="Hide all calendars";
 		self::$trad["CALENDAR_printCalendars"]="Print calendar(s)";
 		self::$trad["CALENDAR_printCalendarsInfos"]="Print in landscape mode";
-		self::$trad["CALENDAR_addSharedCalendar"]="Add a chared calendar";
-		self::$trad["CALENDAR_addSharedCalendarInfo"]="Add a chared calendar :<br>for the reservations of a room, vehicle, videoprojector, etc";
+		self::$trad["CALENDAR_addSharedCalendar"]="Add a shared calendar";
+		self::$trad["CALENDAR_addSharedCalendarInfo"]="Add a shared calendar :<br>for the reservations of a room, vehicle, videoprojector, etc";
 		self::$trad["CALENDAR_exportIcal"]="Export the events (iCal)";
 		self::$trad["CALENDAR_icalUrl"]="Url for reading access to the calendar (Ical)";
 		self::$trad["CALENDAR_icalUrlCopy"]="Copy this address? This will allow you to read this calendar from another application";
