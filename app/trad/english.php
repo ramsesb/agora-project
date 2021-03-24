@@ -94,7 +94,7 @@ class Trad extends Txt
 		self::$trad["passwordInfo"]="Leave blank if you want to keep your password";
 		self::$trad["passwordInvalid"]="Your password must have at least 6 characters with at least 1 digit and at least 1 letter";
 		self::$trad["passwordConfirmError"]="Your confirmation password is not valid";
-		self::$trad["specifyPassword"]="Thank you to specify a password";
+		self::$trad["specifyPassword"]="Thank you for specifying a password";
 		self::$trad["resetPassword"]="Forgotten login info ?";
 		self::$trad["resetPassword2"]="Enter your email address to receive your login and password";
 		self::$trad["resetPasswordNotif"]="An email has just been sent to your address to reset your password. If you have not received an email, please verify that the address specified is correct, or that the email is not in your spams.";
